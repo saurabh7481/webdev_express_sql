@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+
+  padding: 0;
+}
+
+#background {
+  height: 100vh;
+
+  background: url("https://acquire.io/wp-content/uploads/2016/08/8-Customer-Service-Challenges-a-Customer-Service-Agent-Faces-and-Their-Solutions.png")
+    no-repeat center center fixed;
+}
+
+#form-background {
+  margin: auto;
+
+  width: 500px;
+
+  z-index: 99;
+
+  background: white;
+
+  padding: 1.5rem;
+
+  border: 1px yellow solid;
+
+  border-radius: 20px;
+}
+
+#header {
+  text-align: center;
+
+  margin: 1rem;
+
+  color: rgb(235, 25, 25);
+}
+
+p {
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+input {
+  width: 100%;
+
+  line-height: 1.5em;
+}
+
+.form-el {
+  margin-bottom: 10px;
+}
+
+#submit {
+  font-size: 15px;
+
+  padding: 8px;
+
+  border: none;
+
+  background-color: tomato;
+
+  color: white;
+}
+
+#time {
+  display: flex;
+
+  justify-content: space-between;
+}
