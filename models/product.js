@@ -49,10 +49,10 @@ module.exports = class Product {
     });
   }
 
-  static delete(id) {
+  static deleteProductById(id) {
     getProductsFromFile(products => {
-      const updatedProducts = products.filter(prod => prod.id !== id);
-      fs.writeFile(p, JSON.stringify(updatedProducts), err => {
+      const remainingProducts = products.filter(prod => prod.id !== id);
+      fs.writeFile(p, JSON.stringify(remainingProducts), err => {
         if (err) {
           console.log(err);
         }
